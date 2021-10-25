@@ -81,7 +81,7 @@ func getGoAutostartApp() (*autostart.App, error) {
 	app := autostart.App{
 		Name:        fullAppName,
 		DisplayName: fullAppName,
-		Exec:        []string{executable},
+		Exec:        []string{executable, "--run"},
 	}
 
 	return &app, nil
