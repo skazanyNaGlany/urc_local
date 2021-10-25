@@ -41,7 +41,7 @@ func printAppInfo() {
 	log.Println()
 	log.Println("How to set:")
 	log.Printf("\tsudo chown root:root %v", os.Args[0])
-	log.Printf("\tsudo chomd u+s %v", os.Args[0])
+	log.Printf("\tsudo chmod u+s %v", os.Args[0])
 	log.Println()
 }
 
