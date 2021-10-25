@@ -1,2 +1,3 @@
-# rc_local
-Simple rc_local.go which will execute rc_local.sh
+# urc_local
+Simple urc_local.go which will execute ./rc_local.sh
+
