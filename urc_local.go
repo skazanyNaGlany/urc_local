@@ -26,6 +26,8 @@ func printAppName() {
 	log.Println(
 		getFullAppName())
 	log.Println()
+	log.Println("Universal rc_local.sh runner.")
+	log.Println()
 }
 
 func printAppInfo() {
